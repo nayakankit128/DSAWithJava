@@ -19,7 +19,7 @@ public class sumOfEvenNumber {
         sum = sum + digit;
         n = n/10;
       }
-
+      //sum of all digits example -> 546, 4+6=10
       System.out.println("Sum of Even Number : "+sum);
     }
 }
