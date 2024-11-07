@@ -24,6 +24,18 @@ public class TransposeMatrix {
         return ans;
     }
 
+    //no need to create extra 2D-array
+    static void TransposeInPlace(int[][] matrix, int row, int column){
+
+        for(int i=0; i<column; i++){
+            for(int j=i; j<row; j++){
+                int temp = matrix[i][j];
+                matrix[i][j] = matrix[j][i];
+                matrix[j][i] = temp;
+            }
+        }
+    }
+
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
@@ -47,8 +59,10 @@ public class TransposeMatrix {
         printMatrix(matrix);
 
         System.out.println("After The print matrix");
-        int[][] ans = findTransposeMatrix(matrix, row, column);
-        printMatrix(ans);
+        // int[][] ans = findTransposeMatrix(matrix, row, column);
+        // printMatrix(ans);
+       TransposeInPlace(matrix,row,column);
+       printMatrix(matrix);
 
 
     }
