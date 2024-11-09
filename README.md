@@ -1,4 +1,3 @@
-
 # Java Pattern Programs
 1. Square Hollow Pattern
 2. Number triangle Pattern
@@ -22,7 +21,8 @@
 
 ## Screenshots
 
-![App Screenshot]
+<img width="180" alt="214630" src="https://github.com/user-attachments/assets/3f51d18c-dc7c-4e42-b5c1-fd4eabbef238">
+
 
 
 # Java Character Patterns
