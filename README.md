@@ -1,5 +1,5 @@
 # Java Pattern Programs
-1. Square Hollow Pattern
+1. Hollow rectangle Pattern
 2. Number triangle Pattern
 3. Number-increasing Pyramid Pattern 
 4. Number-increasing reverse Pyramid Pattern
